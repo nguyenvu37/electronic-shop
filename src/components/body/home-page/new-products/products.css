@@ -44,7 +44,7 @@
 	width: 100%;
 }
 
-.product {
+.product.discount {
 	position: relative;
 	box-shadow: 0px 0px 0px 0px #e4e7ed, 0px 0px 0px 1px #e4e7ed;
 	transition: 0.2s all;

@@ -7,7 +7,7 @@
 	margin: 15px 0 50px !important;
 	box-shadow: 0px 0px 0px 0px #e4e7ed, 0px 0px 0px 1px #e4e7ed;
 	transition: 0.2s all;
-	height: 550px !important;
+	height: 550px;
 }
 
 .product:hover {

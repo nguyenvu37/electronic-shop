@@ -68,11 +68,16 @@ const ProductTopSelling = (props) => {
   }, []);
 
   useEffect(() => {
-    let products = newProducts.filter((item) => item.category === dataCategory);
-    setNewDatas([...products]);
+    if (newProducts) setNewDatas([...newProducts]);
+    if (dataCategory) {
+      let products = newProducts.filter(
+        (item) => item.category === dataCategory
+      );
+      setNewDatas([...products]);
+    }
   }, [dataCategory, newProducts]);
 
-  return newDatas ? (
+  return newDatas.length ? (
     <div className="products-slick">
       <Slider {...settings}>
         {newDatas.map((product, i) => {
@@ -85,7 +90,7 @@ const ProductTopSelling = (props) => {
             );
           const imgUrl = require(`../../../../../img/${product.img}`);
           return (
-            <div className="product" key={i}>
+            <div className="product discount" key={i}>
               <div className="product-img">
                 <img src={imgUrl.default} alt="" />
                 <div className="product-label">{discount}</div>

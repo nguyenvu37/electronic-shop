@@ -14,7 +14,7 @@ const Product = (props) => {
 
   let settings = {
     infinite: true,
-    autoplay: true,
+    // autoplay: true,
     autoplaySpeed: 2000,
     arrows: true,
     slidesToShow: 4,
@@ -66,6 +66,7 @@ const Product = (props) => {
         }
         return true;
       });
+
       setNewProducts([...data]);
       setNewDatas([...data]);
     };
@@ -73,8 +74,13 @@ const Product = (props) => {
   }, []);
 
   useEffect(() => {
-    let products = newProducts.filter((item) => item.category === dataCategory);
-    setNewDatas([...products]);
+    if (newProducts) setNewDatas([...newProducts]);
+    if (dataCategory) {
+      let products = newProducts.filter(
+        (item) => item.category === dataCategory
+      );
+      setNewDatas([...products]);
+    }
   }, [dataCategory, newProducts]);
 
   return newDatas ? (
@@ -93,13 +99,11 @@ const Product = (props) => {
           ) : (
             ""
           );
+          const imgUrl = require(`../../../../../img/${product.img}`).default;
           return (
-            <div className="product" key={i}>
+            <div className="product discount" key={i}>
               <div className="product-img">
-                <img
-                  src={require(`./../../../../../img/${product.img}`).default}
-                  alt=""
-                />
+                <img src={imgUrl} alt="" />
                 <div className="product-label">
                   {discount}
                   {newPro}
