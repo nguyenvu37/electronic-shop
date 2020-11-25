@@ -14,7 +14,7 @@ const Product = (props) => {
 
   let settings = {
     infinite: true,
-    // autoplay: true,
+    autoplay: true,
     autoplaySpeed: 2000,
     arrows: true,
     slidesToShow: 4,
