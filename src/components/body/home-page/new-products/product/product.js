@@ -14,7 +14,7 @@ const Product = (props) => {
 
   let settings = {
     infinite: true,
-    autoplay: true,
+    // autoplay: true,
     autoplaySpeed: 2000,
     arrows: true,
     slidesToShow: 4,
@@ -97,7 +97,7 @@ const Product = (props) => {
             <div className="product" key={i}>
               <div className="product-img">
                 <img
-                  src={require(`./../../../../../img/${product.img}`)}
+                  src={require(`./../../../../../img/${product.img}`).default}
                   alt=""
                 />
                 <div className="product-label">

@@ -11,7 +11,6 @@ const ItemDetail = (props) => {
 
   useEffect(() => {
     const fetchData = async () => {
-      console.log("inputQty.current.value", inputQty.current.value);
       let products = [];
       let data = [];
       await db
@@ -31,7 +30,6 @@ const ItemDetail = (props) => {
         return true;
       });
 
-      console.log("data", data);
       setData(data[0]);
     };
     fetchData();
@@ -42,7 +40,6 @@ const ItemDetail = (props) => {
   }, [props.dataAddtoCart]);
 
   const handleQty = () => {
-    console.log("inputQty.current.value", inputQty.current.value);
     setQty(inputQty.current.value);
   };
 

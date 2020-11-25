@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import Waitting from "./../../../../../common/waiting";
 import AddToCart from "../../../../../common/add-to-cart/addToCart";
 import { db } from "../../../../../firebase";
+import h1 from "../../../../../img/acess1.jpg";
 
 const ProductTopSelling = (props) => {
   const [newProducts, setNewProducts] = useState([]);
@@ -82,13 +83,11 @@ const ProductTopSelling = (props) => {
             ) : (
               <span className="sale">{`-${product.discount}%`}</span>
             );
+          const imgUrl = require(`../../../../../img/${product.img}`);
           return (
             <div className="product" key={i}>
               <div className="product-img">
-                <img
-                  src={require(`./../../../../../img/${product.img}`)}
-                  alt=""
-                />
+                <img src={imgUrl.default} alt="" />
                 <div className="product-label">{discount}</div>
               </div>
               <div className="product-body">

@@ -9,7 +9,6 @@ const ImgDetail = (props) => {
   const [imgProducts, setImgProducts] = useState([]);
 
   useEffect(() => {
-    console.log("props.match", props.match.params.id);
     const fetchData = async () => {
       let products = [];
       let data = [];
@@ -29,7 +28,6 @@ const ImgDetail = (props) => {
         }
         return true;
       });
-      console.log("data", data);
       setImgProducts([...data[0].imgDetail]);
     };
     fetchData();
@@ -48,7 +46,7 @@ const ImgDetail = (props) => {
       {imgProducts.map((item, i) => {
         return (
           <div className="product-preview" key={i}>
-            <img src={require(`./../../../../img/${item}`)} alt="" />
+            <img src={require(`./../../../../img/${item}`).default} alt="" />
           </div>
         );
       })}

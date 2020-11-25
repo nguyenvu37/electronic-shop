@@ -3,6 +3,7 @@ import { Link, useHistory } from "react-router-dom";
 import { connect } from "react-redux";
 import { setDataSearch } from "../../action/action";
 import { db } from "../../../firebase";
+import logo from "../../../img/logo.png";
 
 function MainHeader(props) {
   const inputSearch = useRef(null);
@@ -88,7 +89,7 @@ function MainHeader(props) {
             <div className="col-lg-3">
               <div className="header-logo">
                 <Link to="/" className="logo">
-                  <img src={require("./../../../img/logo.png")} alt="" />
+                  <img src={logo} alt="" />
                 </Link>
               </div>
             </div>

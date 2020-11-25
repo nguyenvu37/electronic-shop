@@ -27,7 +27,7 @@ const Seaction = () => {
                   return (
                     <div className="shop col-md-3 col-xs-6" key={i}>
                       <div className="shop-img">
-                        <img src={titleSection.img} alt="" />
+                        <img src={titleSection.img.default} alt="" />
                         <div className="shop-body">
                           <h3 style={{ fontSize: "1.2rem" }}>
                             {titleSection.name}
