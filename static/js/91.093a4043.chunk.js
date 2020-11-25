@@ -1,0 +1,2 @@
+(this.webpackJsonpelectronic=this.webpackJsonpelectronic||[]).push([[91],{173:function(e,s,t){"use strict";t.r(s),s.default=t.p+"static/media/samsunga.f073d02e.jpg"}}]);
+//# sourceMappingURL=91.093a4043.chunk.js.map

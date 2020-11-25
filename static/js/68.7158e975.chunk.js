@@ -1,0 +1,2 @@
+(this.webpackJsonpelectronic=this.webpackJsonpelectronic||[]).push([[68],{150:function(t,e,c){"use strict";c.r(e),e.default=c.p+"static/media/hotdeal.a9359af3.png"}}]);
+//# sourceMappingURL=68.7158e975.chunk.js.map

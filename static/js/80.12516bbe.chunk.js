@@ -1,0 +1,2 @@
+(this.webpackJsonpelectronic=this.webpackJsonpelectronic||[]).push([[80],{162:function(c,t,e){"use strict";e.r(t),t.default=e.p+"static/media/macbookpro4.1bb85962.jpg"}}]);
+//# sourceMappingURL=80.12516bbe.chunk.js.map

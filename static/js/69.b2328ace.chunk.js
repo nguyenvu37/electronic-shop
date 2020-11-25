@@ -1,0 +1,2 @@
+(this.webpackJsonpelectronic=this.webpackJsonpelectronic||[]).push([[69],{151:function(e,c,t){"use strict";t.r(c),c.default=t.p+"static/media/iphone11a.003fe2fc.jpg"}}]);
+//# sourceMappingURL=69.b2328ace.chunk.js.map

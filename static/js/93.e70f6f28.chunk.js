@@ -1,0 +1,2 @@
+(this.webpackJsonpelectronic=this.webpackJsonpelectronic||[]).push([[93],{175:function(c,s,t){"use strict";t.r(s),s.default=t.p+"static/media/samsungc.cd2b3018.jpg"}}]);
+//# sourceMappingURL=93.e70f6f28.chunk.js.map

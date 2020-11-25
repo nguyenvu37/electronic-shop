@@ -1,0 +1,2 @@
+(this.webpackJsonpelectronic=this.webpackJsonpelectronic||[]).push([[84],{166:function(t,c,e){"use strict";e.r(c),c.default=e.p+"static/media/product04.f70b9f51.png"}}]);
+//# sourceMappingURL=84.122efd4c.chunk.js.map

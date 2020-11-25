@@ -1,0 +1,2 @@
+(this.webpackJsonpelectronic=this.webpackJsonpelectronic||[]).push([[62],{144:function(e,t,c){"use strict";c.r(t),t.default=c.p+"static/media/dell.1400ed09.jpg"}}]);
+//# sourceMappingURL=62.4ef8f500.chunk.js.map

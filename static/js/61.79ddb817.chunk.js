@@ -1,0 +1,2 @@
+(this.webpackJsonpelectronic=this.webpackJsonpelectronic||[]).push([[61],{143:function(e,c,t){"use strict";t.r(c),c.default=t.p+"static/media/camerasony4.08314e7a.jpg"}}]);
+//# sourceMappingURL=61.79ddb817.chunk.js.map

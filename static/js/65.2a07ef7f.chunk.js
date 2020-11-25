@@ -1,0 +1,2 @@
+(this.webpackJsonpelectronic=this.webpackJsonpelectronic||[]).push([[65],{147:function(e,c,t){"use strict";t.r(c),c.default=t.p+"static/media/headphonesony2.216cb526.jpg"}}]);
+//# sourceMappingURL=65.2a07ef7f.chunk.js.map

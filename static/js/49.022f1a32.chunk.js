@@ -1,0 +1,2 @@
+(this.webpackJsonpelectronic=this.webpackJsonpelectronic||[]).push([[49],{185:function(e,t,c){"use strict";c.r(t),t.default=c.p+"static/media/logo.2d27ead7.svg"}}]);
+//# sourceMappingURL=49.022f1a32.chunk.js.map

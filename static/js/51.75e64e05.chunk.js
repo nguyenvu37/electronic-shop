@@ -1,0 +1,2 @@
+(this.webpackJsonpelectronic=this.webpackJsonpelectronic||[]).push([[51],{133:function(c,e,s){"use strict";s.r(e),e.default=s.p+"static/media/acess2.5da5810b.jpg"}}]);
+//# sourceMappingURL=51.75e64e05.chunk.js.map
